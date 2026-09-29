@@ -37,5 +37,7 @@
   <remote name="ros" fetch="https://github.com/ros" />
   <remote name="raven" fetch="https://github.com/Swamy-BV" />
   <project name="meta-ros" remote="ros" path="sources/meta-ros" revision="95c08773cff114b3fe1a8c8f43643e59151bc8db" upstream="wrynose" />
-  <project name="meta-raven" remote="raven" path="sources/meta-raven" revision="refs/heads/develop" />
+  <project name="meta-raven" remote="raven" path="sources/meta-raven" revision="refs/heads/develop">
+    <linkfile src="tools/raven-setup-release.sh" dest="raven-setup-release.sh" />
+  </project>
 </manifest>
