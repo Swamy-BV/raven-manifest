@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Keep the official NXP release and all its common project revisions intact. -->
+  <include name="imx-6.18.20-2.0.0.xml" />
+  <remote name="ros" fetch="https://github.com/ros" />
+  <remote name="raven" fetch="https://github.com/Swamy-BV" />
+  <project name="meta-ros" remote="ros" path="sources/meta-ros"
+           revision="95c08773cff114b3fe1a8c8f43643e59151bc8db" upstream="wrynose" />
+  <!-- Only the Raven layer follows an active development branch. -->
+  <project name="meta-raven" remote="raven" path="sources/meta-raven"
+           revision="refs/heads/develop" />
+</manifest>
