@@ -40,4 +40,7 @@
   <project name="meta-raven" remote="raven" path="sources/meta-raven" revision="refs/heads/develop">
     <linkfile src="tools/raven-setup-release.sh" dest="raven-setup-release.sh" />
   </project>
+  <remote name="swupdate" fetch="https://github.com/sbabic" />
+  <project name="meta-swupdate" remote="swupdate" path="sources/meta-swupdate"
+           revision="c0658455606b3a37d85d7cf03703d8b8d2ead667" upstream="wrynose" />
 </manifest>
